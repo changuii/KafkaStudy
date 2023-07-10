@@ -27,6 +27,6 @@
 - 카프카가 어떻게 안정적이고 높은 처리량을 갖는지에 대한 구체적인 내용
 - 분산 시스템, 페이지 캐시, 배치 전송 처리, 압축 전송, 토픽 구조, 고가용성 보장, 주키퍼 의존성
 
-[3.3 프로듀서와 컨슈머의 기본 동작](https://github.com/changuii/KafkaStudy/blob/main/chapter3/KafkaProCon.md)
+[3.3 프로듀서와 컨슈머의 기본 동작](https://github.com/changuii/KafkaStudy/blob/main/chapter3/KafKaProCon.md)
 - 카프카의 프로듀서와 컨슈머의 기본 동작들에 대한 내용
 - 컨슈머 그룹에 대한 간단한 내용
