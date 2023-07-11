@@ -10,6 +10,7 @@
 
 `chapter 1`: 카프카 개요  
 `chapter 3`: 카프카 기본 개념과 구조
+`chapter 4`: 카프카의 내부 동작 원리
 
 
 
@@ -30,3 +31,10 @@
 [3.3 프로듀서와 컨슈머의 기본 동작](https://github.com/changuii/KafkaStudy/blob/main/chapter3/KafKaProCon.md)
 - 카프카의 프로듀서와 컨슈머의 기본 동작들에 대한 내용
 - 컨슈머 그룹에 대한 간단한 내용
+
+
+## CHAPTER 4. 카프카의 내부 동작 원리
+
+
+
+
