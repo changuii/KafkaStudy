@@ -35,6 +35,14 @@
 
 ## CHAPTER 4. 카프카의 내부 동작 원리
 
+[4.1 카프카 리플리케이션](https://github.com/changuii/KafkaStudy/blob/main/chapter4/Replication.md)
+- 카프카 리플리케이션이 어떻게 동작과정 및 전통적인 메시징 큐와의 차이점
+- 카프카가 어떻게 안정성과 속도를 가지면서 리플리케이션을 하는가
+
+[4.2 카프카 컨트롤러](https://github.com/changuii/KafkaStudy/blob/main/chapter4/Controller.md)
+- 카프카의 리더가 예기치 않게 또는 제어된 종료에서의 리더 선출과정
+- 두 가지 경우에서의 리더 선출과정 및 다운타임의 차이
+
 
 
 
