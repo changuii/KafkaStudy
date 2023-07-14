@@ -43,6 +43,8 @@
 - 카프카의 리더가 예기치 않게 또는 제어된 종료에서의 리더 선출과정
 - 두 가지 경우에서의 리더 선출과정 및 다운타임의 차이
 
+[4.3 로그 세그먼트](https://github.com/changuii/KafkaStudy/blob/main/chapter4/Log(LogSegment).md)
+- 카프카의 로그의 저장 및 로그 저장 파일인 세그먼트 관리 방법
 
 
 
