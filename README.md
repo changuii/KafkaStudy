@@ -9,8 +9,9 @@
 ## 목차
 
 `chapter 1`: 카프카 개요  
-`chapter 3`: 카프카 기본 개념과 구조
-`chapter 4`: 카프카의 내부 동작 원리
+`chapter 3`: 카프카 기본 개념과 구조  
+`chapter 4`: 카프카의 내부 동작 원리  
+`chapter 5`: 프로듀서 내부 동작 원리와 구현
 
 
 
@@ -45,6 +46,26 @@
 
 [4.3 로그 세그먼트](https://github.com/changuii/KafkaStudy/blob/main/chapter4/Log(LogSegment).md)
 - 카프카의 로그의 저장 및 로그 저장 파일인 세그먼트 관리 방법
+
+
+## CHAPTER 5. 프로듀서의 내부 동작 원리와 구현
+
+[5.1 파티셔너 ](https://github.com/changuii/KafkaStudy/blob/main/chapter5/Partitioner.md)
+- 카프카에서 파티셔너가 하는 일
+- 파티셔너 전략 (라운드 로빈 전략, 스티키 파티셔닝 전략)
+
+[5.2 프로듀서 배치](https://github.com/changuii/KafkaStudy/blob/main/chapter5/Batch.md)
+- 프로듀서의 배치 전송 시 고려해야 할 사항
+
+[5.3 중복없는 전송](https://github.com/changuii/KafkaStudy/blob/main/chapter5/TransWithoutDupli.md)
+- 프로듀서의 중복없는 전송 과정
+- 이전의 메시지 큐에서 사용하는 전략들 
+
+[5.4 정확히 한 번 전송](https://github.com/changuii/KafkaStudy/blob/main/chapter5/ExactlyOnceTransfer.md)
+- 정확히 한 번 전송하는 과정
+- transaction API, 트랜잭션 과정
+
+
 
 
 
