@@ -4,7 +4,7 @@
 도서 : `실전 카프카 개발부터 운영까지`
 - [링크](https://www.yes24.com/Product/Goods/104410708)
 
-
+![책 표지](https://image.yes24.com/goods/104410708/XL)
 
 ## 목차
 
@@ -12,6 +12,7 @@
 `chapter 3`: 카프카 기본 개념과 구조  
 `chapter 4`: 카프카의 내부 동작 원리  
 `chapter 5`: 프로듀서 내부 동작 원리와 구현
+`chapter 6`: 컨슈머의 내부 동작 원리와 구현
 
 
 
@@ -66,6 +67,24 @@
 - transaction API, 트랜잭션 과정
 
 
+## CHAPTER 6. 컨슈머의 내부 동작 원리와 구현
 
+[6.1 컨슈머 오프셋 관리](https://github.com/changuii/KafkaStudy/blob/main/chapter6/ConsumerOffset.md)
+- 컨슈머의 오프셋 관리 이유
+- 컨슈머의 오프셋이 어떻게 관리되는 과정
+ 
+[6.2 그룹 코디네이터](https://github.com/changuii/KafkaStudy/blob/main/chapter6/GroupCoordinator.md)
+- 그룹 코디네이터의 역할 
+- 컨슈머의 연결 설정 동작 과정
 
+[6.3 스태틱 멤버십](https://github.com/changuii/KafkaStudy/blob/main/chapter6/StaticMembership.md)
+- 스태틱 멤버십이란?
+- 컨슈머의 리밸런싱 동작 과정
+
+[6.4 컨슈머 파티션 할당 전략](https://github.com/changuii/KafkaStudy/blob/main/chapter6/AllocationStrategy.md)
+- 컨슈머의 파티션 할당 전략 4가지 (레인지 전략, 라운드 로빈 전략, 스티키 전략, 협력적 스티키 전략)
+- EAGER, COOPERATIVE 프로토콜 (리밸런스 프로토콜)
+
+[6.5 정확히 한 번 컨슈머 동작](https://github.com/changuii/KafkaStudy/blob/main/chapter6/ExactlyOnce.md)
+- 정확히 한 번 전송에서의 컨슈머의 동작
 
